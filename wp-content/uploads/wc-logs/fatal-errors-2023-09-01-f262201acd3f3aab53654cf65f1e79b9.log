@@ -1,0 +1,397 @@
+2023-09-01T07:15:14+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in /app/wp-content/themes/montheme/functions.php:672
+Stack trace:
+#0 /app/wp-includes/class-wp-hook.php(310): display_scores_page('')
+#1 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /app/wp-admin/admin.php(259): do_action('toplevel_page_s...')
+#4 {main}
+  thrown dans /app/wp-content/themes/montheme/functions.php à la ligne 672
+
+2023-09-01T07:15:16+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in /app/wp-content/themes/montheme/functions.php:672
+Stack trace:
+#0 /app/wp-includes/class-wp-hook.php(310): display_scores_page('')
+#1 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /app/wp-admin/admin.php(259): do_action('toplevel_page_s...')
+#4 {main}
+  thrown dans /app/wp-content/themes/montheme/functions.php à la ligne 672
+
+2023-09-01T07:29:18+00:00 CRITICAL Uncaught Error: Class 'MatchWidget' not found in /app/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /app/wp-includes/widgets.php(115): WP_Widget_Factory->register('MatchWidget')
+#1 /app/wp-content/themes/montheme/functions.php(12): register_widget('MatchWidget')
+#2 /app/wp-includes/class-wp-hook.php(310): register_match_widget('')
+#3 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /app/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /app/wp-includes/class-wp-hook.php(310): wp_widgets_init('')
+#7 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /app/wp-settings.php(632): do_action('init')
+#10 /app/wp-config.php(102): require_once('/app/wp-setting...')
+#11 /app/wp-load.php(50): require_once('/app/wp-config....')
+#12 /app/wp-admin/admin-ajax.php(22): require_once('/app/wp-load.ph...')
+#13 {main}
+  thro dans /app/wp-includes/class-wp-widget-factory.php à la ligne 62
+
+2023-09-01T07:29:24+00:00 CRITICAL Uncaught Error: Class 'MatchWidget' not found in /app/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /app/wp-includes/widgets.php(115): WP_Widget_Factory->register('MatchWidget')
+#1 /app/wp-content/themes/montheme/functions.php(12): register_widget('MatchWidget')
+#2 /app/wp-includes/class-wp-hook.php(310): register_match_widget('')
+#3 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /app/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /app/wp-includes/class-wp-hook.php(310): wp_widgets_init('')
+#7 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /app/wp-settings.php(632): do_action('init')
+#10 /app/wp-config.php(102): require_once('/app/wp-setting...')
+#11 /app/wp-load.php(50): require_once('/app/wp-config....')
+#12 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#13 /app/wp-admin/them dans /app/wp-includes/class-wp-widget-factory.php à la ligne 62
+
+2023-09-01T07:29:26+00:00 CRITICAL Uncaught Error: Class 'MatchWidget' not found in /app/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /app/wp-includes/widgets.php(115): WP_Widget_Factory->register('MatchWidget')
+#1 /app/wp-content/themes/montheme/functions.php(12): register_widget('MatchWidget')
+#2 /app/wp-includes/class-wp-hook.php(310): register_match_widget('')
+#3 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /app/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /app/wp-includes/class-wp-hook.php(310): wp_widgets_init('')
+#7 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /app/wp-settings.php(632): do_action('init')
+#10 /app/wp-config.php(102): require_once('/app/wp-setting...')
+#11 /app/wp-load.php(50): require_once('/app/wp-config....')
+#12 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#13 /app/wp-admin/them dans /app/wp-includes/class-wp-widget-factory.php à la ligne 62
+
+2023-09-01T07:30:54+00:00 CRITICAL Uncaught Error: Class 'MatchWidget' not found in /app/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /app/wp-includes/widgets.php(115): WP_Widget_Factory->register('MatchWidget')
+#1 /app/wp-content/themes/montheme/functions.php(14): register_widget('MatchWidget')
+#2 /app/wp-includes/class-wp-hook.php(310): register_match_widget('')
+#3 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /app/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /app/wp-includes/class-wp-hook.php(310): wp_widgets_init('')
+#7 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /app/wp-settings.php(632): do_action('init')
+#10 /app/wp-config.php(102): require_once('/app/wp-setting...')
+#11 /app/wp-load.php(50): require_once('/app/wp-config....')
+#12 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#13 /app/wp-admin/them dans /app/wp-includes/class-wp-widget-factory.php à la ligne 62
+
+2023-09-01T07:30:54+00:00 CRITICAL Uncaught Error: Class 'MatchWidget' not found in /app/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /app/wp-includes/widgets.php(115): WP_Widget_Factory->register('MatchWidget')
+#1 /app/wp-content/themes/montheme/functions.php(14): register_widget('MatchWidget')
+#2 /app/wp-includes/class-wp-hook.php(310): register_match_widget('')
+#3 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /app/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /app/wp-includes/class-wp-hook.php(310): wp_widgets_init('')
+#7 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /app/wp-settings.php(632): do_action('init')
+#10 /app/wp-config.php(102): require_once('/app/wp-setting...')
+#11 /app/wp-load.php(50): require_once('/app/wp-config....')
+#12 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#13 /app/wp-admin/them dans /app/wp-includes/class-wp-widget-factory.php à la ligne 62
+
+2023-09-01T07:30:55+00:00 CRITICAL Uncaught Error: Class 'MatchWidget' not found in /app/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /app/wp-includes/widgets.php(115): WP_Widget_Factory->register('MatchWidget')
+#1 /app/wp-content/themes/montheme/functions.php(14): register_widget('MatchWidget')
+#2 /app/wp-includes/class-wp-hook.php(310): register_match_widget('')
+#3 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /app/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /app/wp-includes/class-wp-hook.php(310): wp_widgets_init('')
+#7 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /app/wp-settings.php(632): do_action('init')
+#10 /app/wp-config.php(102): require_once('/app/wp-setting...')
+#11 /app/wp-load.php(50): require_once('/app/wp-config....')
+#12 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#13 /app/wp-admin/them dans /app/wp-includes/class-wp-widget-factory.php à la ligne 62
+
+2023-09-01T07:31:47+00:00 CRITICAL Uncaught Error: Class 'MatchWidget' not found in /app/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /app/wp-includes/widgets.php(115): WP_Widget_Factory->register('MatchWidget')
+#1 /app/wp-content/themes/montheme/functions.php(12): register_widget('MatchWidget')
+#2 /app/wp-includes/class-wp-hook.php(310): register_match_widget('')
+#3 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /app/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /app/wp-includes/class-wp-hook.php(310): wp_widgets_init('')
+#7 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /app/wp-settings.php(632): do_action('init')
+#10 /app/wp-config.php(102): require_once('/app/wp-setting...')
+#11 /app/wp-load.php(50): require_once('/app/wp-config....')
+#12 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#13 /app/wp-admin/them dans /app/wp-includes/class-wp-widget-factory.php à la ligne 62
+
+2023-09-01T07:31:49+00:00 CRITICAL Uncaught Error: Class 'MatchWidget' not found in /app/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /app/wp-includes/widgets.php(115): WP_Widget_Factory->register('MatchWidget')
+#1 /app/wp-content/themes/montheme/functions.php(12): register_widget('MatchWidget')
+#2 /app/wp-includes/class-wp-hook.php(310): register_match_widget('')
+#3 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /app/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /app/wp-includes/class-wp-hook.php(310): wp_widgets_init('')
+#7 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /app/wp-settings.php(632): do_action('init')
+#10 /app/wp-config.php(102): require_once('/app/wp-setting...')
+#11 /app/wp-load.php(50): require_once('/app/wp-config....')
+#12 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#13 /app/wp-admin/them dans /app/wp-includes/class-wp-widget-factory.php à la ligne 62
+
+2023-09-01T07:41:25+00:00 CRITICAL Uncaught Error: Class 'MatchWidget' not found in /app/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /app/wp-includes/widgets.php(115): WP_Widget_Factory->register('MatchWidget')
+#1 /app/wp-content/themes/montheme/functions.php(12): register_widget('MatchWidget')
+#2 /app/wp-includes/class-wp-hook.php(310): register_custom_widgets('')
+#3 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /app/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /app/wp-includes/class-wp-hook.php(310): wp_widgets_init('')
+#7 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /app/wp-settings.php(632): do_action('init')
+#10 /app/wp-config.php(102): require_once('/app/wp-setting...')
+#11 /app/wp-load.php(50): require_once('/app/wp-config....')
+#12 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#13 /app/wp-admin/th dans /app/wp-includes/class-wp-widget-factory.php à la ligne 62
+
+2023-09-01T07:41:27+00:00 CRITICAL Uncaught Error: Class 'MatchWidget' not found in /app/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /app/wp-includes/widgets.php(115): WP_Widget_Factory->register('MatchWidget')
+#1 /app/wp-content/themes/montheme/functions.php(12): register_widget('MatchWidget')
+#2 /app/wp-includes/class-wp-hook.php(310): register_custom_widgets('')
+#3 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /app/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /app/wp-includes/class-wp-hook.php(310): wp_widgets_init('')
+#7 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /app/wp-settings.php(632): do_action('init')
+#10 /app/wp-config.php(102): require_once('/app/wp-setting...')
+#11 /app/wp-load.php(50): require_once('/app/wp-config....')
+#12 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#13 /app/wp-admin/th dans /app/wp-includes/class-wp-widget-factory.php à la ligne 62
+
+2023-09-01T07:42:57+00:00 CRITICAL Uncaught Error: Class 'MatchWidget' not found in /app/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /app/wp-includes/widgets.php(115): WP_Widget_Factory->register('MatchWidget')
+#1 /app/wp-content/themes/montheme/functions.php(12): register_widget('MatchWidget')
+#2 /app/wp-includes/class-wp-hook.php(310): register_custom_widgets('')
+#3 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /app/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /app/wp-includes/class-wp-hook.php(310): wp_widgets_init('')
+#7 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /app/wp-settings.php(632): do_action('init')
+#10 /app/wp-config.php(102): require_once('/app/wp-setting...')
+#11 /app/wp-load.php(50): require_once('/app/wp-config....')
+#12 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#13 /app/wp-admin/th dans /app/wp-includes/class-wp-widget-factory.php à la ligne 62
+
+2023-09-01T07:42:58+00:00 CRITICAL Uncaught Error: Class 'MatchWidget' not found in /app/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /app/wp-includes/widgets.php(115): WP_Widget_Factory->register('MatchWidget')
+#1 /app/wp-content/themes/montheme/functions.php(12): register_widget('MatchWidget')
+#2 /app/wp-includes/class-wp-hook.php(310): register_custom_widgets('')
+#3 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /app/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /app/wp-includes/class-wp-hook.php(310): wp_widgets_init('')
+#7 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /app/wp-settings.php(632): do_action('init')
+#10 /app/wp-config.php(102): require_once('/app/wp-setting...')
+#11 /app/wp-load.php(50): require_once('/app/wp-config....')
+#12 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#13 /app/wp-admin/th dans /app/wp-includes/class-wp-widget-factory.php à la ligne 62
+
+2023-09-01T07:42:58+00:00 CRITICAL Uncaught Error: Class 'MatchWidget' not found in /app/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /app/wp-includes/widgets.php(115): WP_Widget_Factory->register('MatchWidget')
+#1 /app/wp-content/themes/montheme/functions.php(12): register_widget('MatchWidget')
+#2 /app/wp-includes/class-wp-hook.php(310): register_custom_widgets('')
+#3 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /app/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /app/wp-includes/class-wp-hook.php(310): wp_widgets_init('')
+#7 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /app/wp-settings.php(632): do_action('init')
+#10 /app/wp-config.php(102): require_once('/app/wp-setting...')
+#11 /app/wp-load.php(50): require_once('/app/wp-config....')
+#12 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#13 /app/wp-admin/th dans /app/wp-includes/class-wp-widget-factory.php à la ligne 62
+
+2023-09-01T07:53:28+00:00 CRITICAL Uncaught Error: Class 'MatchWidget' not found in /app/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /app/wp-includes/widgets.php(115): WP_Widget_Factory->register('MatchWidget')
+#1 /app/wp-content/themes/montheme/functions.php(12): register_widget('MatchWidget')
+#2 /app/wp-includes/class-wp-hook.php(310): register_custom_widgets('')
+#3 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /app/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /app/wp-includes/class-wp-hook.php(310): wp_widgets_init('')
+#7 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /app/wp-settings.php(632): do_action('init')
+#10 /app/wp-config.php(102): require_once('/app/wp-setting...')
+#11 /app/wp-load.php(50): require_once('/app/wp-config....')
+#12 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#13 /app/wp-admin/th dans /app/wp-includes/class-wp-widget-factory.php à la ligne 62
+
+2023-09-01T07:53:29+00:00 CRITICAL Uncaught Error: Class 'MatchWidget' not found in /app/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /app/wp-includes/widgets.php(115): WP_Widget_Factory->register('MatchWidget')
+#1 /app/wp-content/themes/montheme/functions.php(12): register_widget('MatchWidget')
+#2 /app/wp-includes/class-wp-hook.php(310): register_custom_widgets('')
+#3 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /app/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /app/wp-includes/class-wp-hook.php(310): wp_widgets_init('')
+#7 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /app/wp-settings.php(632): do_action('init')
+#10 /app/wp-config.php(102): require_once('/app/wp-setting...')
+#11 /app/wp-load.php(50): require_once('/app/wp-config....')
+#12 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#13 /app/wp-admin/th dans /app/wp-includes/class-wp-widget-factory.php à la ligne 62
+
+2023-09-01T07:54:13+00:00 CRITICAL Uncaught Error: Class 'MatchWidget' not found in /app/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /app/wp-includes/widgets.php(115): WP_Widget_Factory->register('MatchWidget')
+#1 /app/wp-content/themes/montheme/functions.php(12): register_widget('MatchWidget')
+#2 /app/wp-includes/class-wp-hook.php(310): register_custom_widgets('')
+#3 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /app/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /app/wp-includes/class-wp-hook.php(310): wp_widgets_init('')
+#7 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /app/wp-settings.php(632): do_action('init')
+#10 /app/wp-config.php(102): require_once('/app/wp-setting...')
+#11 /app/wp-load.php(50): require_once('/app/wp-config....')
+#12 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#13 /app/wp-admin/th dans /app/wp-includes/class-wp-widget-factory.php à la ligne 62
+
+2023-09-01T07:54:13+00:00 CRITICAL Uncaught Error: Class 'MatchWidget' not found in /app/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /app/wp-includes/widgets.php(115): WP_Widget_Factory->register('MatchWidget')
+#1 /app/wp-content/themes/montheme/functions.php(12): register_widget('MatchWidget')
+#2 /app/wp-includes/class-wp-hook.php(310): register_custom_widgets('')
+#3 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /app/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /app/wp-includes/class-wp-hook.php(310): wp_widgets_init('')
+#7 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /app/wp-settings.php(632): do_action('init')
+#10 /app/wp-config.php(102): require_once('/app/wp-setting...')
+#11 /app/wp-load.php(50): require_once('/app/wp-config....')
+#12 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#13 /app/wp-admin/th dans /app/wp-includes/class-wp-widget-factory.php à la ligne 62
+
+2023-09-01T07:54:13+00:00 CRITICAL Uncaught Error: Class 'MatchWidget' not found in /app/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /app/wp-includes/widgets.php(115): WP_Widget_Factory->register('MatchWidget')
+#1 /app/wp-content/themes/montheme/functions.php(12): register_widget('MatchWidget')
+#2 /app/wp-includes/class-wp-hook.php(310): register_custom_widgets('')
+#3 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /app/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /app/wp-includes/class-wp-hook.php(310): wp_widgets_init('')
+#7 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /app/wp-settings.php(632): do_action('init')
+#10 /app/wp-config.php(102): require_once('/app/wp-setting...')
+#11 /app/wp-load.php(50): require_once('/app/wp-config....')
+#12 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#13 /app/wp-admin/th dans /app/wp-includes/class-wp-widget-factory.php à la ligne 62
+
+2023-09-01T07:54:13+00:00 CRITICAL Uncaught Error: Class 'MatchWidget' not found in /app/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /app/wp-includes/widgets.php(115): WP_Widget_Factory->register('MatchWidget')
+#1 /app/wp-content/themes/montheme/functions.php(12): register_widget('MatchWidget')
+#2 /app/wp-includes/class-wp-hook.php(310): register_custom_widgets('')
+#3 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /app/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /app/wp-includes/class-wp-hook.php(310): wp_widgets_init('')
+#7 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /app/wp-settings.php(632): do_action('init')
+#10 /app/wp-config.php(102): require_once('/app/wp-setting...')
+#11 /app/wp-load.php(50): require_once('/app/wp-config....')
+#12 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#13 /app/wp-admin/th dans /app/wp-includes/class-wp-widget-factory.php à la ligne 62
+
+2023-09-01T07:55:11+00:00 CRITICAL Uncaught Error: Class 'MatchWidget' not found in /app/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /app/wp-includes/widgets.php(115): WP_Widget_Factory->register('MatchWidget')
+#1 /app/wp-content/themes/montheme/functions.php(12): register_widget('MatchWidget')
+#2 /app/wp-includes/class-wp-hook.php(310): register_custom_widgets('')
+#3 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /app/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /app/wp-includes/class-wp-hook.php(310): wp_widgets_init('')
+#7 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /app/wp-settings.php(632): do_action('init')
+#10 /app/wp-config.php(102): require_once('/app/wp-setting...')
+#11 /app/wp-load.php(50): require_once('/app/wp-config....')
+#12 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#13 /app/wp-admin/th dans /app/wp-includes/class-wp-widget-factory.php à la ligne 62
+
+2023-09-01T07:55:11+00:00 CRITICAL Uncaught Error: Class 'MatchWidget' not found in /app/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /app/wp-includes/widgets.php(115): WP_Widget_Factory->register('MatchWidget')
+#1 /app/wp-content/themes/montheme/functions.php(12): register_widget('MatchWidget')
+#2 /app/wp-includes/class-wp-hook.php(310): register_custom_widgets('')
+#3 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /app/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /app/wp-includes/class-wp-hook.php(310): wp_widgets_init('')
+#7 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /app/wp-settings.php(632): do_action('init')
+#10 /app/wp-config.php(102): require_once('/app/wp-setting...')
+#11 /app/wp-load.php(50): require_once('/app/wp-config....')
+#12 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#13 /app/wp-admin/th dans /app/wp-includes/class-wp-widget-factory.php à la ligne 62
+
+2023-09-01T07:55:12+00:00 CRITICAL Uncaught Error: Class 'MatchWidget' not found in /app/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /app/wp-includes/widgets.php(115): WP_Widget_Factory->register('MatchWidget')
+#1 /app/wp-content/themes/montheme/functions.php(12): register_widget('MatchWidget')
+#2 /app/wp-includes/class-wp-hook.php(310): register_custom_widgets('')
+#3 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /app/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /app/wp-includes/class-wp-hook.php(310): wp_widgets_init('')
+#7 /app/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /app/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /app/wp-settings.php(632): do_action('init')
+#10 /app/wp-config.php(102): require_once('/app/wp-setting...')
+#11 /app/wp-load.php(50): require_once('/app/wp-config....')
+#12 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#13 /app/wp-admin/th dans /app/wp-includes/class-wp-widget-factory.php à la ligne 62
+
+2023-09-01T07:57:34+00:00 CRITICAL require(): Failed opening required './widgets/MatchWidget.php' (include_path='.:/usr/local/lib/php') dans /app/wp-content/themes/montheme/functions.php à la ligne 2
+
+2023-09-01T07:57:34+00:00 CRITICAL require(): Failed opening required './widgets/MatchWidget.php' (include_path='.:/usr/local/lib/php') dans /app/wp-content/themes/montheme/functions.php à la ligne 2
+

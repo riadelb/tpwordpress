@@ -1,0 +1,109 @@
+/*
+Theme Name: Mon Thème
+Theme URI: https://monsite.com/theme
+Author: Riad
+Author URI: https://votresite.com
+Description: Description de votre thème
+Version: 1.0
+*/
+body {
+    background-color: #4d4a4a;
+    color: #fff;
+}
+
+a {
+    color: #32484d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+header {
+    background-color: #5b5757;
+    padding: 20px;
+    text-align: center;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.navbar {
+    background-color: #6b6666;
+}
+
+.custom_a {
+    color: #fff;
+}
+
+.bloc-main {
+    padding: 20px;
+    background-color: #ccd3e1;
+}
+
+.blog-post-title {
+    color: #66d9ef;
+}
+
+.footer {
+    background-color: #575656;
+    padding: 50px 0;
+}
+
+.footer h4 {
+    color: #66d9ef;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-icons a {
+    color: #66d9ef;
+    font-size: 24px;
+}
+
+.newsletter-form {
+    display: flex;
+    margin-top: 20px;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.newsletter-form button {
+    background-color: #66d9ef;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.newsletter-form button:hover {
+    background-color: #5ac5d1;
+}
+
+.blog-sidebar {
+    background-color: #8d8d8d;
+    padding: 20px;
+    color: #fff;
+}
+
+img {
+    filter: brightness(75%);
+}
+
